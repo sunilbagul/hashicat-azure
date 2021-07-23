@@ -1,4 +1,4 @@
-terraform {
+/*env | grep ARMterraform {
   required_providers {
     azurerm = {
       source  = "hashicorp/azurerm"
@@ -6,7 +6,7 @@ terraform {
     }
   }
 }
-
+*/
 provider "azurerm" {
   features {}
 }
